@@ -47,7 +47,6 @@
         </thead>
         <tbody>
             <?php if(isset($res)) {
-                
              foreach(json_decode($res) as $result){
                 ?>
             <tr style="cursor : pointer" id="content<?=$result->id?>" onclick="appendSelect(<?=$result->id?>)">

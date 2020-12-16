@@ -12,10 +12,6 @@ $res = curl_exec($curl);
 curl_close($curl);
 // print_r($res);
 
-
-
-
-
 foreach(json_decode($res) as $result)
 {
   echo $result->id;

@@ -1,4 +1,4 @@
-var seleted = [];
+let seleted = [];
 
 const appendSelect = (value) => {
   const bounceIndex = seleted.indexOf(value);

@@ -11,7 +11,6 @@
     $res = curl_exec($curl);
     curl_close($curl);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 

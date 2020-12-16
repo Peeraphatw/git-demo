@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <button class="btn btn-success" id="selectModeBtn" onclick="selectMode()">Select Mode</button>
     <table class="table table-dark table-hover table-responsive" id="table-api" value="table">
         <thead>
             <tr>

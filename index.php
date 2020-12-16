@@ -1,7 +1,7 @@
 <?php
     $curl = curl_init();
     curl_setopt($curl,CURLOPT_URL,'https://jsonplaceholder.typicode.com/users');
-    curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,FALSE); //FOR HTTPS PROTOCAL
+    curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,FALSE); 
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($curl,CURLOPT_HTTPGET, array(
         'Content-Type : application/json',
